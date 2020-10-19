@@ -1,0 +1,76 @@
+.panel__clothes {
+    margin-top: 30px;
+}
+
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.panel__block {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.block__inner {
+    margin-bottom: 40px;
+}
+
+.block__inner:hover {
+    opacity: 0.5;
+    transition: opacity .4s ease;
+}
+
+
+.block__inimg {
+    max-width: 570px;
+    max-height: 470px;
+}
+
+
+.block__siimg {
+    max-width: 1200px;
+    max-height: 790px;
+}
+
+.block__inner.obj1 {
+    position: relative;
+}
+
+.block__inner.obj2 {
+    position: relative;
+}
+
+.block__side:hover {
+   opacity: 0.5;
+   transition: opacity .4s ease;
+}
+
+.block__side.obj3 {
+    position: relative;
+}
+
+.block_text {
+    position: absolute;
+    top: 88%;
+    left: 30%;
+    background-color: #ffffff;
+    width: 40%;
+    height: 12%;
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 700;
+    font-weight: bold;
+    color: black;
+}
+
+.block_text.new {
+    top: 89%;
+    height: 11%;
+}

@@ -1,0 +1,16 @@
+.container__swipers {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .title__swipers {
+    font-weight: 700;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 1em 0;
+  }
+  
+  .slider__swipers {
+    margin: 0 -15px;
+  }
